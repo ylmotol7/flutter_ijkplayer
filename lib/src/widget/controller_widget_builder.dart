@@ -591,13 +591,13 @@ class PortraitController extends StatelessWidget {
     var maxTime = buildMaxTimeText();
     var progress = buildProgress(info);
 
-    var playButton = buildPlayButton(context);
+    //var playButton = buildPlayButton(context);
 
     var fullScreenButton = buildFullScreenButton();
 
     Widget widget = Row(
       children: <Widget>[
-        playButton,
+        //playButton,
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: currentTime,
